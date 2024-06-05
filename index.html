@@ -6,7 +6,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link
+    <!-- <link
       rel="apple-touch-icon"
       sizes="180x180"
       href="https://claprestaurant.com/wp-content/themes/clap/assets/favicon/apple-touch-icon.png"
@@ -22,7 +22,7 @@
       type="image/png"
       sizes="16x16"
       href="https://claprestaurant.com/wp-content/themes/clap/assets/favicon/favicon-16x16.png"
-    />
+    /> -->
     <link rel="stylesheet" href="./index.css" />
     <style>
       :root {
@@ -100,238 +100,20 @@
         </a>
       <span class="btn btn--primary header__current-location">London</span>
       <!-- absolute positioned state helper buttons -->
-      <button
-        type="button"
-        class="btn btn--primary hover-link header__state-btn header__state-btn--close"
-        data-close-menu=""
-      >
-        Close
-      </button>
-      <button
-        type="button"
-        class="btn btn--primary hover-link header__state-btn header__state-btn--back"
-        data-close-menu-locations-alt=""
-      >
-        Back
-      </button>
       <a
         class="btn btn--primary hover-link header__book-a-table"
         href="#"
         target=""
         >BOOK A TABLE</a
       >
-      <button
+      <!-- <button
         data-locations-toggler=""
         class="btn btn--primary hover-link header__locations"
         type="button"
       >
         Locations
-      </button>
-      <div class="header__lang-switcher header__lang-switcher--empty"></div>
+      </button> -->
     </div>
-    <nav id="nav-menu" class="nav-menu nav-menu--main main-menu">
-      <div class="nav-menu__location-menu">
-        <ul class="main-menu__list">
-          <li class="main-menu__item">
-            <a
-              class="main-menu__link btn--nav"
-              href="#"
-              target=""
-              >ABOUT US</a
-            >
-          </li>
-          <li class="main-menu__item">
-            <a
-              class="main-menu__link btn--nav"
-              href="#"
-              target=""
-              >MENUS</a
-            >
-          </li>
-          <li class="main-menu__item">
-            <a
-              class="main-menu__link btn--nav"
-              href="#"
-              target=""
-              >WHAT'S ON</a
-            >
-          </li>
-          <li class="main-menu__item">
-            <a
-              class="main-menu__link btn--nav"
-              href="#"
-              target=""
-              >PRIVATE EVENTS</a
-            >
-          </li>
-          <li class="main-menu__item">
-            <a
-              class="main-menu__link btn--nav"
-              href="#"
-              target=""
-              >GALLERY</a
-            >
-          </li>
-          <li class="main-menu__item">
-            <a
-              class="main-menu__link btn--nav"
-              href="#"
-              target=""
-              >WORK WITH US</a
-            >
-          </li>
-          <li class="main-menu__item">
-            <button
-              type="button"
-              class="main-menu__link btn btn--nav"
-              data-open-menu-locations-alt=""
-            >
-              Locations
-            </button>
-          </li>
-        </ul>
-        <ul class="main-menu__sub-locations">
-          <li class="main-menu__sub-locations-item">
-            <a
-              class="main-menu__sub-locations-link main-menu__link btn btn--nav"
-              href="#"
-              >Dubai</a
-            >
-          </li>
-          <li class="main-menu__sub-locations-item">
-            <a
-              class="main-menu__sub-locations-link main-menu__link btn btn--nav"
-              href="#"
-              >Riyadh</a
-            >
-          </li>
-          <li class="main-menu__sub-locations-item">
-            <a
-              class="main-menu__sub-locations-link main-menu__link btn btn--nav"
-              href="#"
-              >Beirut</a
-            >
-          </li>
-          <li class="main-menu__sub-locations-item">
-            <a
-              class="main-menu__sub-locations-link main-menu__link btn btn--nav"
-              href="https://claprestaurant.com/london/"
-              >London</a
-            >
-          </li>
-          <li class="main-menu__sub-locations-item">
-            <a
-              class="main-menu__sub-locations-link main-menu__link btn btn--nav"
-              href="https://claprestaurant.com/ibiza/"
-              >Ibiza</a
-            >
-          </li>
-        </ul>
-      </div>
-      <div class="main-menu__footer">
-        <ul id="sub-menu" class="main-menu__sub-list beausite">
-          <li class="main-menu__sub-item">
-            <a
-              class="main-menu__sub-link btn--nav-small"
-              href="mailto:london@claprestaurant.com"
-              target="_blank"
-              >CONTACT</a
-            >
-          </li>
-          <li class="main-menu__sub-item">
-            <a
-              class="main-menu__sub-link btn--nav-small"
-              href="#"
-              target="_blank"
-              >GIFT EXPERIENCE</a
-            >
-          </li>
-          <li class="main-menu__sub-item">
-            <a
-              class="main-menu__sub-link btn--nav-small"
-              href="#"
-              target="_blank"
-              >ADDMIND</a
-            >
-          </li>
-        </ul>
-        <a
-          class="main-menu__footer-item main-menu__footer-item--instagram"
-          href="https://www.instagram.com/claplondon"
-          aria-label="INSTAGRAM"
-          target="_blank"
-          ><svg
-            class=""
-            width="26"
-            height="27"
-            viewbox="0 0 26 27"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M19.5 26.7998H6.5C6.2713 26.7517 6.04259 26.7155 5.80185 26.6674C2.40741 25.9813 0 23.0683 0 19.5896C0 15.7257 0 11.8739 0 8.00999C0 7.55258 0.0361111 7.08314 0.12037 6.62573C0.65 3.80906 2.87685 1.5461 5.70555 0.956286C6.21111 0.847953 6.7287 0.811842 7.23426 0.799805C11.0861 0.799805 14.9259 0.799805 18.7657 0.799805C19.7889 0.799805 20.788 0.98036 21.7148 1.41369C23.8574 2.40073 25.2296 4.03777 25.8074 6.33684C25.8917 6.6498 25.9398 6.9748 26 7.2998V20.2998C25.988 20.372 25.9518 20.4442 25.9518 20.5165C25.8556 21.2146 25.687 21.8887 25.3861 22.5267C24.387 24.6572 22.75 26.0294 20.463 26.6072C20.15 26.6915 19.825 26.7396 19.5 26.7998ZM23.6648 13.8118C23.6648 11.922 23.6648 10.0322 23.6648 8.15443C23.6648 7.56462 23.6046 6.99888 23.412 6.43314C22.7861 4.5674 20.9685 3.09888 18.6815 3.12295C14.8778 3.14703 11.0861 3.12295 7.28241 3.12295C6.71667 3.12295 6.15093 3.19518 5.60926 3.37573C3.76759 3.98962 2.275 5.79518 2.28704 8.13036C2.31111 11.91 2.28704 15.6896 2.29907 19.4813C2.29907 19.8544 2.32315 20.2396 2.39537 20.6128C2.8287 22.8035 4.80278 24.5007 7.2463 24.4887C11.062 24.4646 14.8778 24.4887 18.6935 24.4887C19.512 24.4887 20.2944 24.3442 21.0167 23.947C22.6296 23.0683 23.5685 21.7081 23.6287 19.8544C23.6889 17.8442 23.6407 15.822 23.6407 13.8118H23.6648Z"
-              fill="white"
-            ></path>
-            <path
-              d="M12.9996 20.5046C9.30418 20.5046 6.29492 17.4954 6.29492 13.8C6.29492 10.1167 9.30418 7.10742 12.9875 7.10742C16.6829 7.10742 19.6921 10.1167 19.6921 13.8121C19.6921 17.4954 16.6829 20.5046 12.9996 20.5046ZM12.9996 9.43057C10.5681 9.43057 8.61807 11.3685 8.61807 13.8C8.61807 16.2195 10.544 18.1574 12.9755 18.1815C15.3949 18.1935 17.357 16.2556 17.369 13.8241C17.381 11.4046 15.431 9.44261 12.9996 9.43057Z"
-              fill="white"
-            ></path>
-            <path
-              d="M19.9695 8.52757C19.0306 8.52757 18.2723 7.7572 18.2843 6.83034C18.2843 5.90349 19.0788 5.13312 19.9815 5.14516C20.9084 5.14516 21.6788 5.92757 21.6667 6.85442C21.6667 7.78127 20.8964 8.5396 19.9575 8.5396L19.9695 8.52757Z"
-              fill="white"
-            ></path></svg></a>
-      </div>
-    </nav>
-    <nav class="nav-menu nav-menu--locations locations-menu">
-      <button
-        type="button"
-        class="btn btn--primary locations-menu__close"
-        data-close-menu-locations=""
-      >
-        Close
-      </button>
-      <ul class="nav-menu__list locations-menu__list">
-        <li class="locations-menu__item">
-          <a
-            class="locations-menu__link btn btn--nav"
-            href="https://claprestaurant.com/dubai/"
-            >Dubai</a
-          >
-        </li>
-        <li class="locations-menu__item">
-          <a
-            class="locations-menu__link btn btn--nav"
-            href="https://claprestaurant.com/riyadh/"
-            >Riyadh</a
-          >
-        </li>
-        <li class="locations-menu__item">
-          <a
-            class="locations-menu__link btn btn--nav"
-            href="https://claprestaurant.com/beirut/"
-            >Beirut</a
-          >
-        </li>
-        <li class="locations-menu__item">
-          <a
-            class="locations-menu__link btn btn--nav"
-            href="https://claprestaurant.com/london/"
-            >London</a
-          >
-        </li>
-        <li class="locations-menu__item">
-          <a
-            class="locations-menu__link btn btn--nav"
-            href="https://claprestaurant.com/ibiza/"
-            >Ibiza</a
-          >
-        </li>
-      </ul>
-      <img
-        class="locations-menu__pattern"
-        src="https://claprestaurant.com/wp-content/themes/clap/assets/pattern-2.svg"
-      />
-    </nav>
     <main class="page__main">
       <section
         data-aos="fade"
@@ -397,7 +179,7 @@
             <img
               decoding="async"
               class="rellax-item__pattern rellax-item__pattern--right"
-              src="https://claprestaurant.com/wp-content/themes/clap/assets/pattern-2.svg"
+              src="./svg/pattern-2.svg"
             />
           </rellax-item>
 
@@ -408,7 +190,7 @@
             <img
               decoding="async"
               class="rellax-item__pattern rellax-item__pattern--left"
-              src="https://claprestaurant.com/wp-content/themes/clap/assets/pattern-2.svg"
+              src="./svg/pattern-2.svg"
             />
           </rellax-item>
 
@@ -558,13 +340,9 @@
                   class="acf-q-g__description acf-q-g__wysiwyg t--body acf-q-g__description--a-1"
                 >
                   <p>
-                    HOT ROCKS London, is a fine-dining Steak restaurant located in
-                    N21 nestled within the North London Area. Our
-                    unique culinary concept seamlessly combines authenticity
-                    with innovation to create a truly immersive dining
-                    experience.
+                    Welcome to Hot Rocks London, where we elevate dining to sizzling new heights! Nestled in the heart of Winchmore Hill, our restaurant specializes in an unparalleled culinary experience: cooking Steak & Seafood on volcanic rocks heated to a scorching 440 degrees Celsius.
                   </p>
-                  <p>
+                  <!-- <p>
                     Explore three floors of culinary delight, on arrival be
                     whisked up to the 6th floor to experience the main
                     restaurant, including live sushi and robata counters adding
@@ -576,7 +354,7 @@
                   <p>
                     Experience the full HOT ROCKS dining experience, and try our
                     Steak menu.
-                  </p>
+                  </p> -->
                 </div>
 
                 <nav class="acf-q-g__links acf-q-g__links--a-1 button-list">
@@ -993,7 +771,7 @@
             <img
               decoding="async"
               class="rellax-item__pattern rellax-item__pattern--right"
-              src="https://claprestaurant.com/wp-content/themes/clap/assets/pattern-2.svg"
+              src="./svg/pattern-2.svg"
             />
           </rellax-item>
 
@@ -1004,7 +782,7 @@
             <img
               decoding="async"
               class="rellax-item__pattern rellax-item__pattern--left"
-              src="https://claprestaurant.com/wp-content/themes/clap/assets/pattern-2.svg"
+              src="./svg/pattern-2.svg"
             />
           </rellax-item>
 
@@ -1216,15 +994,19 @@
                     <a href="tel:+442083640565">Call us</a>
                   </p>
                   <hr />
-                  <p>DRESS CODE</p>
+                  <!-- <p>DRESS CODE</p>
                   <p>Smart Casual.</p>
-                  <hr />
-                  <div>HOT ROCKS OPENING HOURS</div>
+                  <hr /> -->
+                  <div>HOT ROCKS OPENING HOURS - from the 15th of June</div>
                   <div></div>
                   <div>
-                    Monday to Friday 12PM – 3PM | 6PM – 11PM<br />
-                    Saturday 12PM – 3:30PM | 6PM – 11PM<br />
-                    Sunday 12PM – 3:30PM | 6PM – 10:30PM
+                    Monday 10AM – 2PM | 5PM – 11PM<br />
+                    Tuesday ClOSED<br />
+                    Wednessday 10AM – 2PM | 5PM – 11PM<br />
+                    Thursday 10AM – 2PM | 5PM – 11PM<br />
+                    Friday 10AM – 2PM | 5PM – 12AM<br />
+                    Saturday 10AM – 2PM | 5PM – 12AM<br />
+                    Sunday 10AM – 9PM
                   </div>
                 </div>
 
@@ -1324,7 +1106,7 @@
 
 
             <!-- Mailchimp for WordPress v4.9.13 - https://wordpress.org/plugins/mailchimp-for-wp/ -->
-            <form
+            <!-- <form
               id="mc4wp-form-1"
               class="mc4wp-form mc4wp-form-140"
               method="post"
@@ -1362,16 +1144,35 @@
                 value="mc4wp-form-1"
               />
               <div class="mc4wp-response"></div>
-            </form>
+            </form> -->
             <!-- / Mailchimp for WordPress Plugin -->
 
+            <div id="mc_embed_shell">
+              <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
+          <!-- <style type="text/css">
+                #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width: 600px;}
+                /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+                   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+        </style> -->
+        <div id="mc_embed_signup">
+            <form action="https://smoochrestaurant.us14.list-manage.com/subscribe/post?u=3d281ddb2372e59256180df12&amp;id=6f10323fe9&amp;f_id=0085bde5f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+                <div id="mc_embed_signup_scroll">
+                  <!-- <h2>Subscribe</h2> -->
+                    <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+                    <div class="mc-field-group"><label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value=""></div>
+                <div id="mce-responses" class="clear">
+                    <div class="response" id="mce-error-response" style="display: none;"></div>
+                    <div class="response" id="mce-success-response" style="display: none;"></div>
+                </div><div aria-hidden="true" style="position: absolute; left: -5000px;"><input type="text" name="b_3d281ddb2372e59256180df12_6f10323fe9" tabindex="-1" value=""></div><div class="clear"><input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe"></div>
+            </div>
+        </form>
+        </div>
+        <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+      </div>
+      </div>
 
 
-
-
-
-
-          </div>
+      
           <nav class="footer__column footer__column--menu">
             <span class="footer__title footer__title--mobile-hide t--subheader"
               >Discover</span
@@ -1436,7 +1237,7 @@
           <div class="footer__address beausite">
             <p>
               <a
-                href="https://www.google.com/maps/place/CLAP+London/@51.5009017,-0.1610028,15z/data=!4m6!3m5!1s0x487605cf155def23:0x21fa654d7289550f!8m2!3d51.5009017!4d-0.1610028!16s%2Fg%2F11svh80b38?sa=X&ved=2ahUKEwjytYPRt82BAxXshP0HHfglAlwQ_BJ6BAhUEAA&hl=en&ved=2ahUKEwjytYPRt82BAxXshP0HHfglAlwQ_BJ6BAhiEAk&entry=tts"
+                href="https://www.google.com/maps/place/Hot+Rocks+Restaurant+And+Cocktail+Bar+(formerly+Smooch+Restaurant)/@51.6310444,-0.1660933,13z/data=!4m10!1m2!2m1!1sHot+Rocks+London!3m6!1s0x4876192d64040ab3:0x3350bc182a47370e!8m2!3d51.6310444!4d-0.0960555!15sChBIb3QgUm9ja3MgTG9uZG9uWhIiEGhvdCByb2NrcyBsb25kb26SAQpyZXN0YXVyYW50mgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJQZFhSMVRERjNSUkFC4AEA!16s%2Fg%2F11c37k5vlz?hl=en&entry=ttu"
               >
                 FIND US</a
               >
@@ -1489,11 +1290,11 @@
         }
       })();
     </script>
-    <script
+    <!-- <script
       type="text/javascript"
       src="./cookie.js"
       id="cookie-notice-front-js"
-    ></script>
+    ></script> -->
     <!-- <script
       type="text/javascript"
       src="./splide.min.js"
@@ -1514,35 +1315,6 @@
     <script>
       AOS.init();
     </script>
-    <!-- <script
-      type="text/javascript"
-      defer
-      src="https://claprestaurant.com/wp-content/plugins/mailchimp-for-wp/assets/js/forms.js?ver=4.9.13"
-      id="mc4wp-forms-api-js"
-    ></script> -->
-    <!-- Cookie Notice plugin v2.4.16 by Hu-manity.co https://hu-manity.co/ -->
-    <!-- <div id="cookie-notice" role="dialog" class="cookie-notice-hidden cookie-revoke-hidden cn-position-bottom" aria-label="Cookie Notice" style="background-color: rgba(55, 44, 33, 1)">
-      <div class="cookie-notice-container" style="color: #fff">
-        <span id="cn-notice-text" class="cn-text-container"
-          >We use cookies to ensure that we give you the best experience on our
-          website. If you continue to use this site we will assume that you are
-          happy with it.</span><span id="cn-notice-buttons" class="cn-buttons-container"><a
-            href="#"
-            id="cn-accept-cookie"
-            data-cookie-set="accept"
-            class="cn-set-cookie cn-button"
-            aria-label="Ok"
-            style="background-color: #826852"
-            >Ok</a
-          ></span
-        ><span
-          id="cn-close-notice"
-          data-cookie-set="accept"
-          class="cn-close-icon"
-          title="No"
-        ></span>
-      </div>
-    </div> -->
-    <!-- / Cookie Notice plugin -->
+    <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
   </body>
 </html>

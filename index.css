@@ -197,7 +197,7 @@ table {
 @font-face {
     font-display: swap;
     font-family: "ApertoStd";
-    src: url(../../../../../../../themes/clap/assets/fonts/Aperto-SemiBold.woff2) format("woff2"),url(../../../../../../../themes/clap/assets/fonts/Aperto-SemiBold.woff) format("woff");
+    src: url("./fonts/Aperto-SemiBold.woff") format("woff");
     font-weight: 600;
     font-style: normal
 }
@@ -205,7 +205,7 @@ table {
 @font-face {
     font-display: swap;
     font-family: "BeausiteSlick";
-    src: url(../../../../../../../themes/clap/assets/fonts/BeausiteSlick-Light.woff2) format("woff2"),url(../../../../../../../themes/clap/assets/fonts/BeausiteSlick-Light.woff) format("woff");
+    src: url("./fonts/Beausite-Classic-Bold.woff") format("woff");
     font-weight: 300;
     font-style: normal
 }
@@ -3243,7 +3243,25 @@ body.rtl .footer__legal-menu li {
     text-decoration-color: var(--white)
 }
 
-.mc4wp-form-fields {
+#mc_embed_signup .mc-field-group {
+    clear: left;
+    position: relative;
+    width: 96%;
+    padding-bottom: 3%;
+    min-height: 50px;
+    display: grid;
+    color: black;
+}
+
+#mc_embed_signup .indicates-required {
+    text-align: right;
+    font-size: 11px;
+    margin-right: 4%;
+    color: black;
+}
+
+
+#mc_embed_signup {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3256,11 +3274,11 @@ body.rtl .footer__legal-menu li {
     align-items: flex-start
 }
 
-.mc4wp-form-fields label {
+#mc_embed_signup label {
     display: none
 }
 
-.mc4wp-form-fields input[type=email] {
+#mc_embed_signup input[type=email] {
     font-family: "BeausiteSlick";
     border: 0;
     outline: 0;
@@ -3270,32 +3288,32 @@ body.rtl .footer__legal-menu li {
     margin: 1.25em 0 .75em
 }
 
-.mc4wp-form-fields input[type=email]::-webkit-input-placeholder {
+#mc_embed_signup input[type=email]::-webkit-input-placeholder {
     opacity: 1;
     color: inherit
 }
 
-.mc4wp-form-fields input[type=email]::-moz-placeholder {
+#mc_embed_signup input[type=email]::-moz-placeholder {
     opacity: 1;
     color: inherit
 }
 
-.mc4wp-form-fields input[type=email]:-ms-input-placeholder {
+#mc_embed_signup input[type=email]:-ms-input-placeholder {
     opacity: 1;
     color: inherit
 }
 
-.mc4wp-form-fields input[type=email]::-ms-input-placeholder {
+#mc_embed_signup input[type=email]::-ms-input-placeholder {
     opacity: 1;
     color: inherit
 }
 
-.mc4wp-form-fields input[type=email]::placeholder {
+#mc_embed_signup input[type=email]::placeholder {
     opacity: 1;
     color: inherit
 }
 
-.mc4wp-form-fields input[type=submit] {
+#mc_embed_signup input[type=submit] {
     padding: 0;
     margin: 0;
     background: none;
@@ -3317,12 +3335,12 @@ body.rtl .footer__legal-menu li {
 }
 
 @media(max-width: 700px) {
-    .mc4wp-form-fields input[type=submit] {
+    #mc_embed_signup input[type=submit] {
         font-size:15px
     }
 }
 
-.mc4wp-form-fields input[type=submit]:hover {
+#mc_embed_signupinput[type=submit]:hover {
     text-decoration-color: var(--white)
 }
 
