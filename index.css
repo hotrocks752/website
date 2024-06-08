@@ -3344,6 +3344,10 @@ body.rtl .footer__legal-menu li {
     text-decoration-color: var(--white)
 }
 
+#mc-embedded-subscribe {
+    padding: 8px 10px;
+}
+
 .intro {
     position: relative;
     margin-bottom: 90px;
