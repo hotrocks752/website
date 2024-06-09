@@ -106,19 +106,28 @@
         </a>
       <span class="btn btn--primary header__current-location">London</span>
       <!-- absolute positioned state helper buttons -->
+      <!-- <button
+        data-locations-toggler=""
+        class="btn btn--primary hover-link header__locations"
+        type="button"
+      >
+        Menu
+      </button> -->
+      <div class="dropdown">
+        <button class="btn btn--primary hover-link header__locations">Menu</button>
+        <div class="dropdown-content">
+            <a href="./pdf/brunch-menu.pdf">By Day</a>
+            <a href="./pdf/night-menu.pdf">By Night</a>
+            <a href="./pdf/private-dining.pdf">Private Dining</a>
+            <a href="./pdf/drinks.pdf">Drinks</a>
+        </div>
+    </div>
       <a
         class="btn btn--primary hover-link header__book-a-table"
         href="https://www.opentable.co.uk/r/hot-rocks-london"
         target=""
         >BOOK A TABLE</a
       >
-      <!-- <button
-        data-locations-toggler=""
-        class="btn btn--primary hover-link header__locations"
-        type="button"
-      >
-        Locations
-      </button> -->
     </div>
     <main class="page__main">
       <section
