@@ -3243,6 +3243,10 @@ body.rtl .footer__legal-menu li {
     text-decoration-color: var(--white)
 }
 
+.ot-container {
+    text-align: center;
+}
+
 #mc_embed_signup .mc-field-group {
     clear: left;
     position: relative;
