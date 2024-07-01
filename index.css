@@ -9,6 +9,10 @@
     text-rendering: optimizeLegibility
 }
 
+section.intro.intro--blurred.aos-init.aos-animate {
+    margin-bottom: 15rem;
+}
+
 article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary {
     display: block;
     margin: 0
